@@ -137,3 +137,8 @@ git push origin EntregaExercicio1
 git push origin --tags
 cd C:\Users\leo_n\Jogo_Adivinhar_numero
 git init C:\Users\leo_n\Jogo_Adivinhar_numero
+status
+git status
+git add *
+git commit
+git status
