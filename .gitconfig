@@ -1,0 +1,13 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = LeonardoNMesquita
+	email = leo_n_mesquita@hotmail.com
+[color]
+	ui = auto
+[filesystem "Oracle Corporation|13.0.1|209491501"]
+	timestampResolution = 10000 microseconds
+	minRacyThreshold = 0 nanoseconds

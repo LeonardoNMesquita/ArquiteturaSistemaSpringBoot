@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jdt.java13patch"
+      label="%featureName"
+      version="1.1.1.v20190918-0918_BETA_JAVA13"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.jdt" version="3.18.100.v20190916-1045" patch="true"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.jdt.compiler.tool"
+         download-size="202"
+         install-size="336"
+         version="1.2.550.v20190918-0246_BETA_JAVA13"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core"
+         download-size="6852"
+         install-size="16010"
+         version="3.19.50.v20190918-0621_BETA_JAVA13"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching"
+         download-size="537"
+         install-size="1043"
+         version="3.15.0.v20190918-0326_BETA_JAVA13"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.manipulation"
+         download-size="1206"
+         install-size="2991"
+         version="1.12.100.v20190918-0918_BETA_JAVA13"
+         unpack="false"/>
+  <plugin
+         id="org.eclipse.jdt.junit.core"
+         download-size="173"
+         install-size="376"
+         version="3.10.400.v20190916-0705_BETA_JAVA13"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.ui"
+         download-size="11338"
+         install-size="25226"
+         version="3.19.0.v20190916-0707_BETA_JAVA13"
+         unpack="false"/>
+
+</feature>
